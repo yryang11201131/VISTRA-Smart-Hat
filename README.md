@@ -61,6 +61,28 @@ The system converts auditory information into visual information for hearing-imp
 5. OLED displays speech subtitles and warning information.
 6. LEDs indicate the direction of important sound sources.
 
+## Project Images
+
+### System Architecture
+
+![System Architecture](docs/system_architecture.png)
+
+### System Flowchart
+
+![System Flowchart](docs/system_flowchart.jpg)
+
+### Smart Hat Prototype
+
+![Smart Hat Prototype](docs/prototype.jpg)
+
+### OLED Display Demo
+
+![OLED Display Demo](docs/oled_demo.png)
+
+### LED Direction Demo
+
+![LED Direction Demo](docs/led_direction_demo.jpg)
+
 ## Project Structure
 
 ```text

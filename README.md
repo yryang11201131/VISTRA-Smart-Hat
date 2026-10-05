@@ -17,19 +17,23 @@ The system is implemented on a Raspberry Pi and integrates speech recognition, h
 ## Open-Source AI Models and Tools
 
 ### Whisper
-Whisper is an automatic speech recognition model developed by OpenAI.  
+
+Whisper is an automatic speech recognition model developed by OpenAI.
+
 In this project, Whisper is used to convert spoken audio into real-time text subtitles.
 
 Official repository:  
 https://github.com/openai/whisper
 
 ### whisper.cpp
+
 whisper.cpp provides a lightweight C/C++ implementation of Whisper suitable for edge devices such as Raspberry Pi.
 
 Official repository:  
 https://github.com/ggml-org/whisper.cpp
 
 ### YAMNet
+
 YAMNet is an audio event classification model based on MobileNet and trained using AudioSet.
 
 In this project, YAMNet is used to recognize important environmental sounds and hazardous sound events.
@@ -72,6 +76,7 @@ VISTRA-Smart-Hat/
 ├── requirements.txt
 └── LICENSE
 ```
+
 ## Installation and Setup
 
 ### 1. Install Python dependencies

@@ -67,3 +67,14 @@ VISTRA-Smart-Hat/
 │   ├── DoA/
 │   ├── OLED/
 │   └── Integrated_System/
+├── docs/
+├── README.md
+├── requirements.txt
+└── LICENSE
+```
+
+## License
+
+The source code developed for this project is released under the MIT License.
+
+Third-party models, libraries, and tools used in this project remain subject to their respective original licenses.

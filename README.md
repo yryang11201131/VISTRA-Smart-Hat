@@ -80,6 +80,75 @@ Install the required Python packages:
 
 ```bash
 pip install -r requirements.txt
+```
+
+### 2. Install whisper.cpp
+
+Clone and build whisper.cpp on the Raspberry Pi.
+
+Official repository:
+
+https://github.com/ggml-org/whisper.cpp
+
+The current system uses the `ggml-tiny.bin` Whisper model.
+
+Expected default paths:
+
+```text
+~/whisper.cpp/build/bin/whisper-cli
+~/whisper.cpp/models/ggml-tiny.bin
+```
+
+### 3. Prepare YAMNet files
+
+Place the following files in the same directory as `vistra_main.py`:
+
+```text
+yamnet.tflite
+yamnet_class_map.csv
+```
+
+These files are used for environmental sound classification.
+
+### 4. Configure ReSpeaker DoA
+
+The system uses the ReSpeaker USB microphone array for audio capture and Direction of Arrival (DoA) estimation.
+
+The ReSpeaker tuning module should be available under:
+
+```text
+~/pixel_ring/usb_4_mic_array/
+```
+
+The program imports:
+
+```python
+from usb_4_mic_array.tuning import Tuning
+```
+
+### 5. Connect the OLED and LEDs
+
+The current implementation uses:
+
+- SSD1322 OLED display through SPI
+- Four GPIO-controlled direction LEDs
+- Raspberry Pi GPIO pins 17, 27, 22, and 23
+
+### 6. Run the integrated system
+
+Move to the integrated system directory:
+
+```bash
+cd src/Integrated_System
+```
+
+Run:
+
+```bash
+python3 vistra_main.py
+```
+
+Press `Ctrl+C` to stop the system.
 
 ## License
 

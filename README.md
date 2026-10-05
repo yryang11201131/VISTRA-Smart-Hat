@@ -72,6 +72,14 @@ VISTRA-Smart-Hat/
 ├── requirements.txt
 └── LICENSE
 ```
+## Installation and Setup
+
+### 1. Install Python dependencies
+
+Install the required Python packages:
+
+```bash
+pip install -r requirements.txt
 
 ## License
 

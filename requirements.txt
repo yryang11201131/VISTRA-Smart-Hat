@@ -1,0 +1,9 @@
+numpy
+pandas
+PyAudio
+tflite-runtime
+opencc-python-reimplemented
+luma.oled
+Pillow
+pyusb
+RPi.GPIO
